@@ -28,5 +28,5 @@ app.use((req, res) => {
   res.end();
 });
 
-console.log(`Listening on ${PORT}`);
+console.log(`Listening on http://localhost:${PORT}`);
 app.listen(PORT);
